@@ -2,7 +2,8 @@
 ![Payment_delay](https://github.com/dynatrace-ace-services/magic_lookup/blob/main/payment_delay.png?raw=true)
 
 ## Upload Notebook
-  
+![Upload](https://github.com/dynatrace-ace-services/magic_lookup/blob/main/upload_notebook.png?raw=true)
+
     https://raw.githubusercontent.com/dynatrace-ace-services/magic_lookup/main/magic_lookup.json  
 
 
