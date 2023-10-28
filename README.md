@@ -1,4 +1,4 @@
-# Automate business analitycs
+# DIY - Automate business analitycs with DQL 
 ![Payment_delay](https://github.com/dynatrace-ace-services/magic_lookup/blob/main/payment_delay.png?raw=true)
 
 ## Upload Notebook
