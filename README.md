@@ -9,7 +9,7 @@ Upload the Magic Lookup Notbook in your Dynatrace Saas tenant or in a [free tria
 
 
 ##  Labs
-(with solution) 
+(with solutions) 
 1) Calculate the payment delay  
 
 - With 2 lookups through 3 datasources  
