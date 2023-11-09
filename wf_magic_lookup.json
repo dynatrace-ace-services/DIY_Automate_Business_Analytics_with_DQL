@@ -1,5 +1,5 @@
 {
-  "title": "magic_lookup",
+  "title": "DIY_Automate_Business_Analytics",
   "description": "",
   "tasks": {
     "http_request_1": {
@@ -30,7 +30,7 @@
       "description": "Build a custom task running js Code",
       "action": "dynatrace.automations:run-javascript",
       "input": {
-        "script": "// optional import of sdk modules\nimport { execution } from '@dynatrace-sdk/automation-utils';\nimport { executionsClient } from '@dynatrace-sdk/client-automation';\n\n//https://developer.dynatrace.com/reference/sdks/client-classic-environment-v2/\nimport { metricsClient } from \"@dynatrace-sdk/client-classic-environment-v2\";\nexport default async function ({ execution_id }) {\n     // your code goes here\n     // e.g. get the current execution\n     const ex = await execution(execution_id);\n     console.log('Automated script execution on behalf of', ex.trigger);\n     //console.log(ex)\n     var previous_task={executionId: execution_id, id: 'execute_dql_query_1'}\n     var get_dql_result= await executionsClient.getTaskExecutionResult(previous_task)\n     const total = await metricsClient.ingest({\n        body: \"magiclookup.payment_delay.total \"+get_dql_result.records[0].total,\n     });\n     const failed = await metricsClient.ingest({\n        body: \"magiclookup.payment_delay.failed \"+get_dql_result.records[0].nbr_failed,\n     });\n     return { triggeredBy: ex.trigger };\n}"
+        "script": "// optional import of sdk modules\nimport { execution } from '@dynatrace-sdk/automation-utils';\nimport { executionsClient } from '@dynatrace-sdk/client-automation';\n\n//https://developer.dynatrace.com/reference/sdks/client-classic-environment-v2/\nimport { metricsClient } from \"@dynatrace-sdk/client-classic-environment-v2\";\nexport default async function ({ execution_id }) {\n     // your code goes here\n     // e.g. get the current execution\n     const ex = await execution(execution_id);\n     console.log('Automated script execution on behalf of', ex.trigger);\n     //console.log(ex)\n     var previous_task={executionId: execution_id, id: 'execute_dql_query_1'}\n     var get_dql_result= await executionsClient.getTaskExecutionResult(previous_task)\n     const total = await metricsClient.ingest({\n        body: \"payment_delay.total \"+get_dql_result.records[0].total,\n     });\n     const failed = await metricsClient.ingest({\n        body: \"payment_delay.failed \"+get_dql_result.records[0].nbr_failed,\n     });\n     return { triggeredBy: ex.trigger };\n}"
       },
       "position": {
         "x": -1,
