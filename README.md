@@ -5,7 +5,7 @@
 Upload the Magic Lookup Notbook in your Dynatrace Saas tenant or in a [free trial tenant](https://www.dynatrace.com/trial) 
 ![Upload](https://github.com/dynatrace-ace-services/magic_lookup/blob/main/upload_notebook.png?raw=true)
 
-    https://raw.githubusercontent.com/dynatrace-ace-services/magic_lookup/main/magic_lookup.json  
+    https://raw.githubusercontent.com/dynatrace-ace-services/DIY_Automate_Business_Analytics_with_DQL/main/DIY_Automate_Business_Analytics.json  
 
 
 ##  Labs
