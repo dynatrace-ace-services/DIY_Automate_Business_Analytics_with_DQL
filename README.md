@@ -1,6 +1,7 @@
 # DIY - Automate business analitycs with DQL 
 ---
 
+
 This is a sample for educational purposes only and not officially part of the product.
 If you have question, leave a comment on the github repo.
 ---
