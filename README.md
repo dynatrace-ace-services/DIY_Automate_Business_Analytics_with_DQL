@@ -19,7 +19,7 @@ Upload the Notbook in your Dynatrace Saas tenant or in a [free trial tenant](htt
 (with solutions) 
 1) Calculate the payment delay  
 
-- With 2 lookups through 3 datasources  
+- with 1 DQL request through 3 datasources  
 
 3) Calculate the SLO   
 
