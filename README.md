@@ -15,7 +15,7 @@ Upload the Notbook in your Dynatrace Saas tenant or in a [free trial tenant](htt
     https://raw.githubusercontent.com/dynatrace-ace-services/DIY_Automate_Business_Analytics_with_DQL/main/DIY_Automate_Business_Analytics.json  
 
 
-##  Labs
+##  The notebook includes this lab 
 (with solutions) 
 1) Calculate the payment delay  
 
