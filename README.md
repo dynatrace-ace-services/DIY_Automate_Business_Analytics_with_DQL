@@ -1,4 +1,10 @@
 # DIY - Automate business analitycs with DQL 
+---
+
+This is a sample for educational purposes only and not officially part of the product.
+If you have question, leave a comment on the github repo.
+---
+
 ![Payment_delay](https://github.com/dynatrace-ace-services/magic_lookup/blob/main/payment_delay.png?raw=true)
 
 ## Upload Notebook
